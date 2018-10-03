@@ -1,0 +1,252 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header {
+	background-color: #121b2a;
+	padding: 10px 0;
+}
+.wrapper {
+	/*border: 3px solid green;*/
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 15%;
+	/*border: 3px solid white;*/
+	float: left;
+}
+.logo img {
+	width: 100%;
+}
+.menu {
+	width: 70%;
+	/*border: 3px solid white;*/
+	float: right;
+	margin-top: 25px;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	text-decoration: none;
+	padding: 5px 15px;
+	display: block;
+	color: white;
+	transition: .5s;
+}
+.menu ul li:last-child a {
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	color: #03609b;
+}
+/*header end*/
+/*banner start*/
+.banner {
+	background-image: url(../image/banner1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*min-height: 350px;*/
+}
+.banner-content {
+	margin-top: 160px;
+	margin-bottom: 60px;
+	width: 45%;
+}
+.banner-content p:first-child {
+	color: white;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+.banner-content h1 {
+	color: #096dbb;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.banner-content p:nth-last-child(2) {
+	color: white;
+	font-size: 18px;
+	line-height: 1.3;
+}
+.banner-content button {
+	border: none;
+	padding: 8px 16px;
+	border-radius: 4px;
+	color: #4e4e4e;
+	font-size: 18px;
+	margin-top: 18px;
+}
+/*banner end*/
+/*service start*/
+.service {
+	background-color: #121b2c;
+	padding: 50px 0;
+}
+.single {
+	/*border: 3px solid red;*/
+	width: 28.5%;
+	padding: 10px 20px;
+	float: left;
+	border-right: 1px solid white;
+	margin-left: 3px;
+}
+.single:last-child {
+	border-right: 0;
+}
+.title {
+	overflow: hidden;
+	/*border: 3px solid white;*/
+	margin-bottom: 5px;
+}
+.icon {
+	/*border:3px solid green;*/
+	width: 25%;
+	float: left;
+}
+.icon img {
+	width: 100%;
+}
+.icon-content {
+	/*border:3px solid green;*/
+	width: 65%;
+	float: left;
+	margin-top: 14px;
+}
+.icon-content h1 {
+	color: white;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.icon-content h2 {
+	color: #096dbb;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.content {}
+.content p {
+	color: white;
+	font-family: sans-serif;
+	line-height: 1.3;
+}
+/*service end*/
+/*info start*/
+.info {
+	background-color: #050811;
+	padding: 50px 0;
+}
+.company-details {
+	width: 28%;
+	/*border: 3px solid red;*/
+	padding: 10px 20px;
+	float: left;
+	margin-left: 5px;
+}
+.mail-address {
+	line-height: 1.3;
+}
+.mail-address h2 {
+	margin-bottom: 12px;
+	color: white;
+}
+.mail-address p {
+	color: white;
+}
+.contact {
+	line-height: 1.3;
+	margin-top: 5px;
+}
+.contact p {
+	color: white;
+}
+.testimonial {
+	line-height: 1.3;
+	background-color: #0c1019;
+	padding: 0 5px;
+}
+.feedback h2 {
+	color: white;
+}
+.feedback p {
+	margin-top: 12px;
+	color: white;
+}
+.customer-details h3 {
+	color: white;
+	margin-top: 21px;
+}
+.customer-details p {
+	color: white;
+}
+.cellphone {
+	/*border: 3px solid green;*/
+	float: left;
+}
+.storeapp {
+	/*border: 3px solid yellow;*/
+	float: left;
+	margin-left: 13px;
+	line-height: 1.3;
+}
+.storeapp h2 {
+	color: white;
+}
+.storeapp h3 {
+	color: #216d91;
+	margin-bottom: 12px;
+}
+/*info end*/
+/*footer start*/
+footer {
+	background-color: #121b2c;
+	padding: 20px 0;
+}
+.footer-menu {
+	width: 50%;
+	/*border: 3px solid red;*/
+	float: left;
+}
+
+.part1 ul li {
+	float: left;
+	list-style: none;
+	padding: 0 10px;
+	border-right: 1px solid white;
+}
+.part1 ul li:last-child {
+	border: 0;
+}
+.part1 ul li a {
+	color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+.part2 {
+	margin-top: 20px;
+	padding: 0 10px;
+
+}
+.part2 p {
+	color: white;
+	font-family: sans-serif;
+	
+}
+.more-logo {
+	width: 35%;
+	/*border:3px solid green;*/
+	float: right;
+	margin-top: 0;
+	margin-right: 30px;
+}
+.more-logo img {
+
+}
+/*footer end*/
